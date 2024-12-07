@@ -1,0 +1,42 @@
+.node-back{
+    width: 220px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0px 2px 22px #3D19191E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6px;
+    color: #ffffff99;
+}
+.node-del{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+}
+.node-box{
+    width: 100%;
+    padding: 0 20px;
+}
+.node-header{
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 17px;
+}
+.node-select .ant-select-selector{
+    background-color: var(--drawer-text-back-color) !important;
+}
+/*.node-select .ant-select-dropdown{*/
+/*    background-color: var(--drawer-text-back-color) !important;*/
+/*}*/
+/*.node-select .ant-select-item{*/
+/*    background-color: var(--drawer-text-back-color) !important;*/
+/*}*/
+.node-select .ant-select-selection-search-input{
+    color: #ffffff99 !important;
+}
